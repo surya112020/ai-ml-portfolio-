@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Teja | AI/ML & GenAI Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="grid-background"></div>
+    <div class="glow-effect"></div>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Surya Teja<span class="logo-accent"> /&gt;</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link active">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#simulators" class="nav-link">Interactive Demos</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="about" class="hero-section">
+            <div class="section-container">
+                <div class="hero-content">
+                    <span class="badge">AI/ML & Generative AI Specialist</span>
+                    <h1>Building Next-Gen <span class="gradient-text">Cognitive Systems</span></h1>
+                    <p class="hero-tagline">
+                        AI/ML Engineer with 4+ years of experience designing and deploying production-grade <strong>Machine Learning, Generative AI, RAG, and Document Intelligence systems</strong> for enterprise and financial services.
+                    </p>
+                    <p class="hero-subtext">
+                        Specialized in fine-tuning foundation models (IBM Granite, Qwen-VL), optimizing RAG databases, and orchestrating robust agent workflows. Previously developed advanced intelligence platforms at <strong>IBM</strong> and <strong>Capgemini</strong>.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#simulators" class="btn primary-btn">Try Interactive Demos</a>
+                        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="experience-section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="number-prefix">01.</span> Professional Experience</h2>
+                
+                <div class="timeline">
+                    <!-- IBM -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <div class="job-title-row">
+                                <h3>AI/ML Engineer</h3>
+                                <span class="timeline-date">Aug 2025 – Present</span>
+                            </div>
+                            <div class="company-row">
+                                <span class="company-name">IBM</span>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> Texas, USA</span>
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Fine-tuned <strong>IBM Granite foundation models</strong> on watsonx.ai using LoRA/QLoRA for financial analysis, risk summarization, and enterprise assistants.</li>
+                                <li>Prepared high-quality CPT/SFT datasets, estimated token budgets, and designed data-mixing strategies to enhance model accuracy.</li>
+                                <li>Built state-of-the-art <strong>RAG systems</strong> using FAISS/ChromaDB, improving document search and policy Q&A accuracy by 30%.</li>
+                                <li>Designed multi-stage document parsing workflows integrating OCR, YOLO layout segmentation, and LangGraph agent pipelines.</li>
+                                <li>Deployed models on AWS SageMaker and EC2 with vLLM, establishing robust GitHub Actions CI/CD pipelines.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- CAPGEMINI -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <div class="job-title-row">
+                                <h3>AI/ML Engineer</h3>
+                                <span class="timeline-date">June 2021 – Aug 2024</span>
+                            </div>
+                            <div class="company-row">
+                                <span class="company-name">Capgemini</span>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> India</span>
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Developed a real-time financial fraud detection engine using <strong>PyTorch</strong>, reducing false positives by 31%.</li>
+                                <li>Built robust NLP classification and entity extraction pipelines for compliance and KYC using BERT and Hugging Face Transformers.</li>
+                                <li>Served low-latency inference endpoints via <strong>FastAPI</strong> and AWS SageMaker, supporting sub-200ms model predictions.</li>
+                                <li>Implemented Optuna for hyperparameter optimization and built explainability dashboards using SHAP, Plotly, and Seaborn.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- RESEARCH ASSISTANT -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <div class="job-title-row">
+                                <h3>Research Assistant (Document Intelligence)</h3>
+                                <span class="timeline-date">Graduate Research</span>
+                            </div>
+                            <div class="company-row">
+                                <span class="company-name">University of North Texas</span>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> Denton, TX</span>
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Fine-tuned <strong>Qwen-VL</strong> (Vision-Language Models) for complex structured information extraction from scanned PDFs.</li>
+                                <li>Built multimodal pipelines merging Vision Transformers (ViT) and OCR data for question answering over scanned receipts and invoices.</li>
+                                <li>Applied mixed-precision training and 4-bit quantization (QLoRA) to maximize GPU memory efficiency.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE SIMULATORS SECTION -->
+        <section id="simulators" class="simulators-section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="number-prefix">02.</span> Interactive AI/ML Showcases</h2>
+                <p class="section-desc">Interact with live simulations of the architectural designs and algorithms I implement in production.</p>
+                
+                <div class="simulator-tabs">
+                    <button class="tab-btn active" data-tab="rag-sim">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i> RAG Simulator
+                    </button>
+                    <button class="tab-btn" data-tab="lora-calc">
+                        <i class="fa-solid fa-calculator"></i> LoRA Fine-Tuning
+                    </button>
+                    <button class="tab-btn" data-tab="doc-pipeline">
+                        <i class="fa-solid fa-network-wired"></i> Document Parser
+                    </button>
+                </div>
+
+                <div class="tab-content-container">
+                    
+                    <!-- TAB 1: RAG SIMULATOR -->
+                    <div class="tab-content active" id="rag-sim">
+                        <div class="sim-grid">
+                            <div class="sim-controls card">
+                                <h3><i class="fa-solid fa-gears"></i> Query configuration</h3>
+                                <div class="form-group">
+                                    <label for="rag-sample-query">Select a Sample Query:</label>
+                                    <select id="rag-sample-query">
+                                        <option value="custom">-- Type your own query below --</option>
+                                        <option value="q1" selected>What is the remote work policy and how many days are allowed?</option>
+                                        <option value="q2">What are the security rules for accessing internal servers?</option>
+                                        <option value="q3">How do I get reimbursed for travel expenses?</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="rag-query-input">Query String:</label>
+                                    <textarea id="rag-query-input" rows="3" placeholder="Enter custom query...">What is the remote work policy and how many days are allowed?</textarea>
+                                </div>
+                                <div class="form-group inline-group">
+                                    <div>
+                                        <label for="rag-top-k">Top K Retrieved:</label>
+                                        <select id="rag-top-k">
+                                            <option value="1">K = 1</option>
+                                            <option value="2" selected>K = 2</option>
+                                            <option value="3">K = 3</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="rag-temperature">LLM Temperature:</label>
+                                        <span id="temp-val">0.2</span>
+                                        <input type="range" id="rag-temperature" min="0" max="1" step="0.1" value="0.2">
+                                    </div>
+                                </div>
+                                <button id="run-rag-btn" class="btn primary-btn btn-full">
+                                    <i class="fa-solid fa-play"></i> Run RAG Pipeline
+                                </button>
+                            </div>
+
+                            <div class="sim-visualizer">
+                                <!-- Step 1: Embeddings & DB -->
+                                <div class="sim-step" id="step-db">
+                                    <h4><i class="fa-solid fa-database"></i> 1. Vector Database (Embeddings)</h4>
+                                    <div class="db-documents">
+                                        <div class="db-doc" id="doc-1">
+                                            <div class="doc-badge">Doc 1</div>
+                                            <p class="doc-text"><strong>HR Policy:</strong> Employees are allowed to work remotely for up to 3 days per week with manager approval. Core hours must be maintained between 10 AM and 4 PM local time.</p>
+                                            <div class="vector-preview">Vector: [0.12, 0.85, -0.45, 0.22...]</div>
+                                            <div class="similarity-score">Cosine Similarity: <span class="score">-</span></div>
+                                        </div>
+                                        <div class="db-doc" id="doc-2">
+                                            <div class="doc-badge">Doc 2</div>
+                                            <p class="doc-text"><strong>Security Guide:</strong> Accessing internal database servers requires active VPN. Multi-Factor Authentication (MFA) must be verified every 12 hours of active session.</p>
+                                            <div class="vector-preview">Vector: [0.89, -0.11, 0.05, 0.74...]</div>
+                                            <div class="similarity-score">Cosine Similarity: <span class="score">-</span></div>
+                                        </div>
+                                        <div class="db-doc" id="doc-3">
+                                            <div class="doc-badge">Doc 3</div>
+                                            <p class="doc-text"><strong>Expense Policy:</strong> For business travel, lodging is reimbursed up to $250/night. Meal allowances are capped at $75/day. Receipts must be uploaded within 30 days of the travel end date.</p>
+                                            <div class="vector-preview">Vector: [-0.02, 0.31, 0.92, -0.15...]</div>
+                                            <div class="similarity-score">Cosine Similarity: <span class="score">-</span></div>
+                                        </div>
+                                        <div class="db-doc" id="doc-4">
+                                            <div class="doc-badge">Doc 4</div>
+                                            <p class="doc-text"><strong>Workspace Setup:</strong> The company provides a one-time remote workspace stipend of $500 for ergonomic office equipment, chairs, and monitors.</p>
+                                            <div class="vector-preview">Vector: [0.15, 0.78, -0.32, 0.18...]</div>
+                                            <div class="similarity-score">Cosine Similarity: <span class="score">-</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Step 2: Prompt assembly -->
+                                <div class="sim-step" id="step-prompt">
+                                    <h4><i class="fa-solid fa-code"></i> 2. System Prompt Builder</h4>
+                                    <div class="prompt-box">
+                                        <pre><code id="assembled-prompt">System Prompt will compile here when pipeline runs...</code></pre>
+                                    </div>
+                                </div>
+
+                                <!-- Step 3: Response generation -->
+                                <div class="sim-step" id="step-llm">
+                                    <h4><i class="fa-solid fa-microchip"></i> 3. Generative Response (LLM Output)</h4>
+                                    <div class="llm-output-box">
+                                        <div class="status-indicator" id="llm-status">Idle. Click "Run RAG Pipeline" to start.</div>
+                                        <div class="typing-container">
+                                            <p id="llm-text"></p>
+                                            <span class="cursor"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 2: LORA CALCULATOR -->
+                    <div class="tab-content" id="lora-calc">
+                        <div class="sim-grid">
+                            <div class="sim-controls card">
+                                <h3><i class="fa-solid fa-gears"></i> LoRA Adapter config</h3>
+                                <div class="form-group">
+                                    <label for="lora-base-model">Select Base LLM Profile:</label>
+                                    <select id="lora-base-model">
+                                        <option value="granite-8b">IBM Granite 8B (d = 4,096)</option>
+                                        <option value="llama3-8b" selected>Llama 3 8B (d = 4,096)</option>
+                                        <option value="mixtral-8x7b">Mixtral 8x7B (d = 14,336)</option>
+                                        <option value="granite-34b">IBM Granite 34B (d = 8,192)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lora-rank">LoRA Rank (r): <span id="rank-val" class="highlight-val">8</span></label>
+                                    <input type="range" id="lora-rank" min="1" max="64" step="1" value="8">
+                                    <div class="slider-marks"><span>1</span><span>8</span><span>16</span><span>32</span><span>64</span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lora-alpha">LoRA Scaling (α): <span id="alpha-val" class="highlight-val">16</span></label>
+                                    <input type="range" id="lora-alpha" min="1" max="128" step="1" value="16">
+                                </div>
+                                <div class="form-group">
+                                    <label>Layers to Adapt:</label>
+                                    <div class="checkbox-group">
+                                        <label><input type="checkbox" id="layer-q" checked> Query Projection ($W_q$)</label>
+                                        <label><input type="checkbox" id="layer-v" checked> Value Projection ($W_v$)</label>
+                                        <label><input type="checkbox" id="layer-k"> Key Projection ($W_k$)</label>
+                                        <label><input type="checkbox" id="layer-o"> Output Projection ($W_o$)</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sim-visualizer">
+                                <div class="calculator-results card">
+                                    <h3><i class="fa-solid fa-chart-pie"></i> Efficiency Metrics</h3>
+                                    <div class="metrics-grid">
+                                        <div class="metric-card">
+                                            <span class="metric-label">Base Layer Parameters</span>
+                                            <span class="metric-value" id="base-params">33,554,432</span>
+                                        </div>
+                                        <div class="metric-card highlight-metric">
+                                            <span class="metric-label">LoRA Trainable Params</span>
+                                            <span class="metric-value" id="lora-params">131,072</span>
+                                        </div>
+                                        <div class="metric-card success-metric">
+                                            <span class="metric-label">Parameter Reduction</span>
+                                            <span class="metric-value" id="reduction-pct">99.61%</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="visual-explanation">
+                                        <h4>How LoRA Adapts Weights:</h4>
+                                        <div class="lora-diagram">
+                                            <div class="diagram-matrix frozen">
+                                                <div class="matrix-box">W₀</div>
+                                                <div class="matrix-info">
+                                                    <strong>Frozen Weights</strong>
+                                                    <span id="dim-w0">4096 × 4096</span>
+                                                    <span class="status-badge freeze">No Gradients</span>
+                                                </div>
+                                            </div>
+                                            <div class="diagram-plus"><i class="fa-solid fa-plus"></i></div>
+                                            <div class="diagram-adapters">
+                                                <div class="diagram-matrix adapter-b">
+                                                    <div class="matrix-box">B</div>
+                                                    <div class="matrix-info">
+                                                        <strong>Matrix B</strong>
+                                                        <span id="dim-b">4096 × 8</span>
+                                                        <span class="status-badge train">Trainable</span>
+                                                    </div>
+                                                </div>
+                                                <div class="diagram-multiply"><i class="fa-solid fa-xmark"></i></div>
+                                                <div class="diagram-matrix adapter-a">
+                                                    <div class="matrix-box">A</div>
+                                                    <div class="matrix-info">
+                                                        <strong>Matrix A</strong>
+                                                        <span id="dim-a">8 × 4096</span>
+                                                        <span class="status-badge train">Trainable</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="math-formula">
+                                            $$\Delta W = B \times A \cdot \frac{\alpha}{r}$$
+                                        </p>
+                                        <p class="explanation-text">
+                                            Instead of updating all weights in $W_0$ (which is huge), we freeze it and only train two smaller matrices, $A$ and $B$, which share a tiny rank $r$. This significantly decreases GPU VRAM usage during training!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 3: DOCUMENT PIPELINE -->
+                    <div class="tab-content" id="doc-pipeline">
+                        <div class="sim-grid">
+                            <div class="sim-controls card">
+                                <h3><i class="fa-solid fa-file-invoice"></i> Document processing</h3>
+                                <p class="control-help">Simulating the document-intelligence pipeline (YOLOv8 Layout -> OCR -> VLM Extraction) used in my research and IBM projects.</p>
+                                <div class="form-group">
+                                    <label>Select Sample Document:</label>
+                                    <div class="doc-selector-grid">
+                                        <button class="doc-select-btn active" data-doc="invoice">
+                                            <i class="fa-solid fa-file-invoice-dollar"></i> Financial Invoice
+                                        </button>
+                                        <button class="doc-select-btn" data-doc="contract">
+                                            <i class="fa-solid fa-file-contract"></i> NDA Contract
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="pipeline-steps-vertical">
+                                    <div class="p-step active" data-step="1">
+                                        <span class="step-num">1</span>
+                                        <div class="step-details">
+                                            <strong>Layout Detection (YOLO)</strong>
+                                            <span>Locating tables, headers, metadata</span>
+                                        </div>
+                                    </div>
+                                    <div class="p-step" data-step="2">
+                                        <span class="step-num">2</span>
+                                        <div class="step-details">
+                                            <strong>OCR & OCR-Alignment</strong>
+                                            <span>Extracting textual strings & coordinates</span>
+                                        </div>
+                                    </div>
+                                    <div class="p-step" data-step="3">
+                                        <span class="step-num">3</span>
+                                        <div class="step-details">
+                                            <strong>VLM Structured Extraction</strong>
+                                            <span>Converting unstructured visual text to JSON</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="next-pipeline-btn" class="btn primary-btn btn-full">
+                                    Next Pipeline Stage <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+
+                            <div class="sim-visualizer">
+                                <div class="document-viewer card">
+                                    <div class="viewer-header">
+                                        <span id="doc-viewer-title">financial_invoice_1092.pdf</span>
+                                        <div class="viewer-controls">
+                                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            <i class="fa-solid fa-magnifying-glass-minus"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="document-canvas-container">
+                                        <!-- Interactive document box -->
+                                        <div class="document-canvas" id="doc-canvas">
+                                            <!-- Invoice Content -->
+                                            <div class="canvas-content" id="content-invoice">
+                                                <div class="invoice-header-block text-box" id="box-header">
+                                                    <h2>APEX GLOBAL SYSTEMS</h2>
+                                                    <p>INVOICE #INV-2026-981</p>
+                                                    <p>Date: June 12, 2026</p>
+                                                </div>
+                                                <div class="invoice-vendor-block text-box" id="box-vendor">
+                                                    <strong>From:</strong><br>
+                                                    Apex Global Systems LLC<br>
+                                                    San Francisco, CA 94105
+                                                </div>
+                                                <div class="invoice-table-block text-box" id="box-table">
+                                                    <table class="mock-table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Description</th>
+                                                                <th>Qty</th>
+                                                                <th>Rate</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>IBM Granite Model Tuning Consultation</td>
+                                                                <td>15 hrs</td>
+                                                                <td>$200.00</td>
+                                                                <td>$3,000.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>RAG Pipeline Optimization & Setup</td>
+                                                                <td>10 hrs</td>
+                                                                <td>$180.00</td>
+                                                                <td>$1,800.00</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="invoice-total-block text-box" id="box-total">
+                                                    <h3>Total Due: $4,800.00</h3>
+                                                </div>
+                                            </div>
+
+                                            <!-- NDA Contract Content (Hidden initially) -->
+                                            <div class="canvas-content hidden" id="content-contract">
+                                                <div class="nda-title-block text-box" id="box-nda-title">
+                                                    <h2>MUTUAL NON-DISCLOSURE AGREEMENT</h2>
+                                                </div>
+                                                <div class="nda-parties-block text-box" id="box-nda-parties">
+                                                    <p>This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of June 20, 2026 ("Effective Date"), by and between <strong>Alpha Labs Inc.</strong> ("Disclosing Party") and <strong>Surya Systems</strong> ("Receiving Party").</p>
+                                                </div>
+                                                <div class="nda-clause-block text-box" id="box-nda-clause">
+                                                    <p><strong>1. Confidential Information.</strong> The parties agree to hold all proprietary metadata, weights, and fine-tuning configurations confidential and secure from external leaks.</p>
+                                                </div>
+                                                <div class="nda-signatures-block text-box" id="box-nda-sigs">
+                                                    <p>Signed by: Alpha Labs Representative / Surya Teja</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Overlay divs for YOLO boxes -->
+                                            <div class="yolo-box yolo-header hidden" data-label="Header (98%)"></div>
+                                            <div class="yolo-box yolo-vendor hidden" data-label="Address Block (95%)"></div>
+                                            <div class="yolo-box yolo-table hidden" data-label="Table Area (99%)"></div>
+                                            <div class="yolo-box yolo-total hidden" data-label="Financial Total (97%)"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="extraction-output-panel">
+                                        <h4>Pipeline Output Stage</h4>
+                                        <div class="extraction-output-content">
+                                            <pre><code id="pipeline-output-json">// Select a stage and run to see extraction results...</code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="number-prefix">03.</span> Core Skills</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skills-category card">
+                        <h3><i class="fa-solid fa-brain"></i> AI/ML & GenAI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Hugging Face Transformers</span>
+                            <span class="skill-tag">IBM watsonx.ai</span>
+                            <span class="skill-tag">IBM Granite</span>
+                            <span class="skill-tag">OpenAI API</span>
+                            <span class="skill-tag">Qwen-VL</span>
+                            <span class="skill-tag">Agentic AI</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-category card">
+                        <h3><i class="fa-solid fa-sliders"></i> LLM Fine-Tuning</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">SFT / CPT Data Prep</span>
+                            <span class="skill-tag">LoRA / QLoRA</span>
+                            <span class="skill-tag">PEFT</span>
+                            <span class="skill-tag">Instruction Tuning</span>
+                            <span class="skill-tag">Quantization (4-bit/8-bit)</span>
+                            <span class="skill-tag">Token Estimation</span>
+                            <span class="skill-tag">Gradient Checkpointing</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-category card">
+                        <h3><i class="fa-solid fa-magnifying-glass-location"></i> RAG & Document AI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">OCR Document Parsing</span>
+                            <span class="skill-tag">YOLO Region Detection</span>
+                            <span class="skill-tag">Vector DBs (FAISS, ChromaDB)</span>
+                            <span class="skill-tag">Embeddings & Retrieval</span>
+                            <span class="skill-tag">Reranking Systems</span>
+                            <span class="skill-tag">Table Extraction</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-category card">
+                        <h3><i class="fa-solid fa-server"></i> MLOps & Serving</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS SageMaker</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">vLLM Inference</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">MLflow</span>
+                            <span class="skill-tag">GitHub Actions CI/CD</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <h2 class="section-title"><span class="number-prefix">04.</span> Contact & Links</h2>
+                
+                <div class="contact-grid">
+                    <div class="contact-info card">
+                        <h3>Let's Collaborate</h3>
+                        <p>I am looking for roles in **AI/ML Engineering, Generative AI Platform Development, and RAG Architecture**.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:suryateja2034@gmail.com">suryateja2034@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>940-597-8868</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Texas, USA</span>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/suryateja" target="_blank" class="social-icon" id="linkedin-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank" class="social-icon" id="github-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card card">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" required placeholder="your.email@company.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="4" required placeholder="Hi Surya, I'd love to connect regarding an AI/ML Engineer role..."></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn btn-full">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div id="form-status" class="hidden"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>Designed & Built by Surya Teja. All rights reserved &copy; 2026.</p>
+        </div>
+    </footer>
+
+    <!-- MathJax for rendering equations -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
