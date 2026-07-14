@@ -1,0 +1,3 @@
+- [x] Portfolio project scaffold created.
+- [ ] Ensure the user updates names, email, GitHub profile link, and project links.
+- [ ] Confirm deployment configuration when the repository is ready.
