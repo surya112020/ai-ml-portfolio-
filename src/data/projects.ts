@@ -21,7 +21,7 @@ const projects: Project[] = [
   {
     title: 'Advanced GraphRAG System',
     description: 'A graph-based Retrieval-Augmented Generation pipeline using Neo4j and LlamaIndex. Builds and queries semantic knowledge graphs from unstructured text corpus, improving multi-hop Q&A accuracy by 45%.',
-    link: 'https://github.com/surya112020/ai-ml-portfolio-',
+    link: 'https://github.com/surya112020/cognitive-graphrag',
     tags: ['GraphRAG', 'LlamaIndex', 'Neo4j', 'Knowledge Graphs', 'Python']
   },
   {
